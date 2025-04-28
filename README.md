@@ -6,6 +6,6 @@ NPM Continuous Integration test action (with Cypress action)
 - kt-actions/npm-run-script
   - setup node environment (kt-actions/setup-node-minmax, use cache)
   - install dependencies or restore from cache (uses cache)
-  - run `build-script`
 - cypress-io/github-action
-  - with `run-script`
+  - build with `build-script`
+  - start with `start-script`
