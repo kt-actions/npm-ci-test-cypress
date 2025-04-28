@@ -14,6 +14,9 @@ inputs:
   start-script:
     description: 'Bash script to run by Cypress action for testing after setting up Node.js.'
     default: npm run preview
+  wait-on:
+    description: 'Wait for the server to be ready'
+    default: http://localhost:5173
   cache-additional-path:
     description: 'Additional paths to cache. This is a multi-line list of paths.'
   cache-reset:
